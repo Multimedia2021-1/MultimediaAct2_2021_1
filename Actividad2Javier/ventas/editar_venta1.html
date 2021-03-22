@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+</head>
+<script>
+	function volver(){
+		window.location.href='inf_venta1.html'
+	}
+	function editar_venta(){
+		window.location.href='inf_venta1.html'
+	}
+</script>
+<body>
+	<nav>
+		<ul>
+			<li><a href="../home.html" title="HOME">HOME</a></li>&nbsp
+			<li><a href="clientes.html" title="Clientes">Clientes</a></li>&nbsp
+			<li><a href="../productos/productos.html" title="Productos">Productos</a></li>&nbsp
+			<li><a href="../ventas/ventas.html" title="Ventas">Ventas</a></li>&nbsp
+			<li><a href="../index.html" title="Salir">Salir</a></li>&nbsp
+		</ul>
+	</nav>
+	<form action="inf_cliente1.html" method="get" accept-charset="utf-8">
+	<table >
+		<tbody>
+			<tr>
+				<td><label>Nombre_producto</label></td>
+				<td><input type="text" name="nombre_producto" value="short" placeholder="nombre_producto"></td>
+			</tr>
+			<tr>
+				<td><label>ID_producto</label></td>
+				<td><input type="text" name="id_producto" value="234" placeholder="id_producto"></td>
+			</tr>
+			<tr>
+				<td><label>Nombre_cliente</label></td>
+				<td><input type="text" name="nombre_cliente" value="javier" placeholder="nombre_cliente"></td>
+			</tr>
+			<tr>
+				<td><label>ID_cliente</label></td>
+				<td><input type="text" name="id_cliente" value="2345" placeholder="id_cliente"></td>
+			</tr>
+			<tr>
+				<td><label>cantidad productos</label></td>
+				<td><input type="text" name="cantidad_productos" value="3" placeholder="cantidad_productos"></td>
+			</tr>
+			<tr>
+				<td><label>total a pagar</label></td>
+				<td><input type="text" name="total_a_pagar" value="27000" placeholder="total a pagar"></td>
+			</tr>
+		</tbody>
+	</table>
+	</form><br>
+	<button type="submit" onclick="volver()">Volver</button>&nbsp
+	<button type="submit" onclick="editar_venta()">editar</button>
+</body>
+</html>
