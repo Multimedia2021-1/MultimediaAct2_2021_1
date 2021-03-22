@@ -1,1 +1,0 @@
-Correcciones actividad práctica HTML
