@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+</head>
+<script>
+	function volver(){
+		window.location.href='productos.html'
+	}
+	function editar_cliente(){
+		window.location.href='editar_producto2.html'
+	}
+</script>
+<body>
+	<nav>
+		<ul>
+			<li><a href="../home.html" title="HOME">HOME</a></li>&nbsp
+			<li><a href="../clientes/clientes.html" title="Clientes">Clientes</a></li>&nbsp
+			<li><a href="productos.html" title="Productos">Productos</a></li>&nbsp
+			<li><a href="../ventas/ventas.html" title="Ventas">Ventas</a></li>&nbsp
+			<li><a href="../index.html" title="Salir">Salir</a></li>&nbsp
+		</ul>
+	</nav>
+	<table >
+		<tbody>
+			<tr>
+				<td><label>ID:</label></td>
+				<td><label>234</label></td>
+			</tr>
+			<tr>
+				<td><label>Nombre</label></td>
+				<td><label>short</label></td>
+			</tr>
+			<tr>
+				<td><label>Precio</label></td>
+				<td><label>9000</label></td>
+			</tr>
+			<tr>
+				<td><label>Cantidad</label></td>
+				<td><label>1000</label></td>
+			</tr>
+		</tbody>
+	</table><br>
+	<button type="submit" onclick="volver()">Volver</button>&nbsp
+	<button type="submit" onclick="editar_cliente()">Editar</button>
+</body>
+</html>
