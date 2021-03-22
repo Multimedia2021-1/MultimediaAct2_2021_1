@@ -1,2 +1,2 @@
-# Multimedia-Act2-2021-1
+# MultimediaAct2_2021_1
 Actividad práctica HTML
