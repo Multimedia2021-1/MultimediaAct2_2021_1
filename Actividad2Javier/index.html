@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<script>
+		function initSesion() {
+			window.location.href = 'home.html';
+		}
+	</script>
+</head>
+<body>
+	<form action="home.html" method="post" accept-charset="utf-8">
+		<fieldset>
+			<table>
+				<center><caption>INICIO DE SESION</caption>
+				<tbody>
+					<tr>
+						<td><label for="user">Usuario</label></td>
+						<td><input type="text" name="user" value="" placeholder="user"></td>
+					</tr>
+					<tr>
+						<td><label for="password">Contraseña</label></td>
+						<td><input type="password" name="password" value="" placeholder="password"></td>
+					</tr>
+					<tr>
+						<td colsplan="2">
+							<button type="submit" onclick="initSesion()">Ingresar</button>
+					    </td>
+					</tr>
+					<tr>
+						<td clospan="2">
+							<a href="resgistrarse.html">Registrarse</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</fieldset>
+	</form>
+</body>
+</html>
